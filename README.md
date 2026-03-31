@@ -13,7 +13,7 @@
 
   | LinkedIn | GitHub | Website |
   | :---: | :---: | :---: |
-  | [![LinkedIn](https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhaarissadiq%2F&subtitle=%40haarissadiq&size=square)](https://www.linkedin.com/in/haarissadiq/) | [![GitHub](https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fgithub.com%2FHaaris-7&subtitle=%40Haaris-7&size=square)](https://github.com/Haaris-7) | [![Website](https://bentos.jkominovic.dev/api/v1/generic-card?icon=sireaddotcv&subtitle=Coming+Soon&size=square)](#) |
+  | [![LinkedIn](https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fhaarissadiq%2F&subtitle=%40haarissadiq&size=square)](https://www.linkedin.com/in/haarissadiq/) | [![GitHub](https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fgithub.com%2FHaaris-7&subtitle=%40Haaris-7&size=square)](https://github.com/Haaris-7) | [![Website](https://bentos.jkominovic.dev/api/v1/generic-card?icon=sireaddotcv&subtitle=haarissadiq.dev&size=square)](https://haarissadiq.dev) |
 
   <br/>
   <img src="https://komarev.com/ghpvc/?username=Haaris-7&color=6e40c9&style=flat&label=Profile+Views" alt="Views"/>
@@ -24,7 +24,7 @@
 <h2 align="center">Metrics</h2>
 
 <p align="center">
-  <img src="https://metrics.lecoq.io/Haaris-7?template=classic&repositories.forks=true&isocalendar=1&introduction=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar=false&isocalendar.duration=full-year&introduction=false&introduction.title=true&config.timezone=Asia%2FDubai" alt="GitHub Metrics" width="100%" />
+  <img src="github-metrics.svg" alt="GitHub Metrics" width="100%" />
 </p>
 
 <!-- ──────────────────────────────── TECH STACK ──────────────────────────────── -->
@@ -35,7 +35,6 @@
 <p align="center">
   <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=py&theme=dark" alt="Python" /></a>
   <a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" alt="C++" /></a>
-  <a href="https://en.cppreference.com/w/c"><img src="https://skillicons.dev/icons?i=c&theme=dark" alt="C" /></a>
   <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java&theme=dark" alt="Java" /></a>
   <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts&theme=dark" alt="TypeScript" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js&theme=dark" alt="JavaScript" /></a>
@@ -60,6 +59,7 @@
   <a href="https://www.ros.org/"><img src="https://skillicons.dev/icons?i=ros&theme=dark" alt="ROS2" /></a>
   <a href="https://opencv.org/"><img src="https://skillicons.dev/icons?i=opencv&theme=dark" alt="OpenCV" /></a>
   <a href="https://www.langchain.com/"><img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" height="48" alt="LangChain" /></a>
+  <a href="https://openai.com/index/new-tools-for-building-agents/"><img src="https://img.shields.io/badge/OpenAI_Agents_SDK-412991?style=for-the-badge&logo=openai&logoColor=white" height="48" alt="OpenAI Agents SDK" /></a>
 </p>
 
 <h4 align="center">DevOps & Cloud</h4>
@@ -69,7 +69,6 @@
   <a href="https://vercel.com/"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" alt="Vercel" /></a>
   <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git&theme=dark" alt="Git" /></a>
   <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github&theme=dark" alt="GitHub" /></a>
-  <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions&theme=dark" alt="GitHub Actions" /></a>
   <a href="https://www.linux.org/"><img src="https://skillicons.dev/icons?i=linux&theme=dark" alt="Linux" /></a>
   <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode&theme=dark" alt="VS Code" /></a>
 </p>
