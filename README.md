@@ -9,7 +9,7 @@
 <!-- ──────────────────────────────── CONNECT ──────────────────────────────── -->
 
 <div align="center">
-  <h2>Connect with Me</h2>
+  <h2>Let's Connect</h2>
 
   | LinkedIn | GitHub | Website |
   | :---: | :---: | :---: |
@@ -21,7 +21,7 @@
 
 <!-- ──────────────────────────────── METRICS ──────────────────────────────── -->
 
-<h2 align="center">Metrics</h2>
+<h2 align="center">Stats</h2>
 
 <p align="center">
   <img src="github-metrics.svg" alt="GitHub Metrics" width="100%" />
