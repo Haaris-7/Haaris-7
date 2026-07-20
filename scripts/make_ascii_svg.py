@@ -1,4 +1,4 @@
-"""Generate haaris-ascii.svg — a block-letter ASCII banner in a terminal window.
+"""Generate haaris-ascii.svg — a wide block-letter ASCII banner in a terminal window.
 
 Each row is clipped and revealed left-to-right with staggered SMIL animation,
 playing once and freezing (per the guide's design principles).
@@ -18,6 +18,7 @@ FONT_BITS = {
     "S": ["01111", "10000", "01110", "00001", "11110"],
     "D": ["11110", "10001", "10001", "10001", "11110"],
     "Q": ["01110", "10001", "10001", "10010", "01101"],
+    " ": ["00", "00", "00", "00", "00"],
 }
 
 BG = "#0d1117"
@@ -27,11 +28,11 @@ DIM = "#8b949e"
 GREEN = "#39d353"
 BLUE = "#58a6ff"
 
-W = 370
+W = 860
 PAD = 18
 TITLEBAR = 30
 LINE_H = 13
-FONT_SIZE = 9
+FONT_SIZE = 10
 
 
 def banner(word):
@@ -46,23 +47,16 @@ def banner(word):
 
 def main():
     ramp = " .`:-=+*cs#%@"
-    ramp_line = (ramp + ramp[::-1]).strip()
-    ramp_line = (ramp_line * 4)[:52]
+    ramp_line = ((ramp + ramp[::-1]).strip() * 8)[:130]
 
     lines = [
-        ("$ ./whoami --render", GREEN),
+        ("$ ./banner.sh", GREEN),
         ("", GRAY),
-        *[(row, GRAY) for row in banner("HAARIS")],
-        ("", GRAY),
-        *[(row, GRAY) for row in banner("SADIQ")],
+        *[(row, GRAY) for row in banner("HAARIS SADIQ")],
         ("", GRAY),
         (ramp_line, "#484f58"),
         ("", GRAY),
-        ("> mechatronics engineering", BLUE),
-        ("> @ university of waterloo", BLUE),
-        ("> building where hw meets sw", DIM),
-        ("", GRAY),
-        ("[@@@@@@@@@@@@@@@@@@@@] 100% loaded", GREEN),
+        ("> mechatronics engineering @ uwaterloo   ·   fullstack   ·   ai agents   ·   robotics", BLUE),
     ]
 
     height = TITLEBAR + PAD + len(lines) * LINE_H + PAD
