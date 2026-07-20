@@ -4,12 +4,6 @@
 
 <br><br>
 
-<h3><code>haaris@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
-
-<br><br>
-
 <h3><code>haaris@github ~ $ whoami</code></h3>
 
 <table>
@@ -30,6 +24,12 @@
 <a href="https://x.com/s_haaris25714"><code>x/@s_haaris25714</code></a>
 &nbsp;·&nbsp;
 <a href="https://github.com/Haaris-7"><code>github/Haaris-7</code></a>
+
+<br><br>
+
+<h3><code>haaris@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
 
 <br><br>
 

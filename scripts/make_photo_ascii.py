@@ -35,9 +35,10 @@ TOP_CROP_FRACTION = 0.04
 
 
 def to_grid():
-    img = Image.open(SRC).convert("RGBA")
-    white = Image.new("RGBA", img.size, (255, 255, 255, 255))
-    img = Image.alpha_composite(white, img).convert("L")
+    rgba = Image.open(SRC).convert("RGBA")
+    alpha = rgba.getchannel("A")
+    white = Image.new("RGBA", rgba.size, (255, 255, 255, 255))
+    img = Image.alpha_composite(white, rgba).convert("L")
     img = ImageOps.autocontrast(img, cutoff=1)
 
     text_w = W - 2 * PAD
@@ -45,15 +46,19 @@ def to_grid():
     crop_w = img.width
     crop_h = min(img.height, int(crop_w * ROWS * cell_aspect / COLS))
     y0 = min(int(img.height * TOP_CROP_FRACTION), img.height - crop_h)
-    img = img.crop((0, y0, crop_w, y0 + crop_h))
-    img = img.resize((COLS, ROWS), Image.LANCZOS)
+    box = (0, y0, crop_w, y0 + crop_h)
+    img = img.crop(box).resize((COLS, ROWS), Image.LANCZOS)
+    alpha = alpha.crop(box).resize((COLS, ROWS), Image.LANCZOS)
 
     lines = []
     for row in range(ROWS):
         chars = []
         for col in range(COLS):
+            if alpha.getpixel((col, row)) < 32:
+                chars.append(" ")
+                continue
             brightness = img.getpixel((col, row))
-            idx = int((255 - brightness) / 255 * (len(RAMP) - 1))
+            idx = max(2, int((brightness / 255) ** 0.7 * (len(RAMP) - 1)))
             chars.append(RAMP[idx])
         lines.append("".join(chars))
     return lines
