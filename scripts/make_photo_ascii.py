@@ -27,10 +27,10 @@ GREEN = "#39d353"
 W = 370
 PAD = 14
 TITLEBAR = 30
-COLS = 100
-LINE_H = 7
-FONT_SIZE = 6.4
-ROWS = 48
+COLS = 150
+LINE_H = 4.7
+FONT_SIZE = 4.3
+ROWS = 72
 TOP_CROP_FRACTION = 0.04
 
 
@@ -67,7 +67,7 @@ def to_grid():
 def main():
     lines = to_grid()
     text_w = W - 2 * PAD
-    height = TITLEBAR + PAD + len(lines) * LINE_H + PAD + 22
+    height = round(TITLEBAR + PAD + len(lines) * LINE_H + PAD + 22)
 
     parts = []
     clips = []
@@ -77,7 +77,7 @@ def main():
         y = TITLEBAR + PAD + (i + 1) * LINE_H - 1
         clip_ref = ""
         if not STATIC:
-            begin = 0.1 + i * 0.045
+            begin = 0.1 + i * 0.03
             clips.append(
                 f'<clipPath id="prow{i}"><rect x="0" y="{y - LINE_H}" width="0" height="{LINE_H + 3}">'
                 f'<animate attributeName="width" from="0" to="{W}" begin="{begin:.3f}s" dur="0.3s" fill="freeze"/>'
