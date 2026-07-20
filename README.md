@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./haaris-ascii.svg" width="860" alt="Haaris Sadiq ASCII banner" />
+
+<br><br>
+
 <h3><code>haaris@github ~ $ ./contributions.sh</code></h3>
 
 <img src="./contrib-heatmap.svg" width="860" alt="Contribution heatmap" />
@@ -10,7 +14,7 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./haaris-ascii.svg" width="370" alt="Haaris Sadiq ASCII banner" /></td>
+    <td valign="top"><img src="./photo-ascii.svg" width="370" alt="ASCII portrait of Haaris Sadiq" /></td>
     <td valign="top"><img src="./info-card.svg" width="490" alt="Info card" /></td>
   </tr>
 </table>
@@ -19,9 +23,11 @@
 
 <h3><code>haaris@github ~ $ cat links.txt</code></h3>
 
-<a href="https://haarissadiq.dev"><code>haarissadiq.dev</code></a>
+<a href="https://haarissadiq.dev"><code>haarissadiq.dev (work in progress)</code></a>
 &nbsp;·&nbsp;
-<a href="https://www.linkedin.com/in/haarissadiq/"><code>linkedin/haarissadiq</code></a>
+<a href="https://www.linkedin.com/in/haaris-sadiq/"><code>linkedin/haaris-sadiq</code></a>
+&nbsp;·&nbsp;
+<a href="https://x.com/s_haaris25714"><code>x/@s_haaris25714</code></a>
 &nbsp;·&nbsp;
 <a href="https://github.com/Haaris-7"><code>github/Haaris-7</code></a>
 

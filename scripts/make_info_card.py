@@ -39,8 +39,9 @@ ROWS = [
     ("kv", "robotics", "ROS2 · OpenCV · PyTorch"),
     ("kv", "infra", "Docker · Azure · Vercel · PostgreSQL"),
     ("kv", "certs", "IBM Data Analysis · IBM Optimization"),
-    ("kv", "site", "haarissadiq.dev"),
-    ("kv", "linkedin", "in/haarissadiq"),
+    ("kv", "site", "haarissadiq.dev — work in progress"),
+    ("kv", "linkedin", "in/haaris-sadiq"),
+    ("kv", "x", "@s_haaris25714"),
     ("rule", "", None),
     ("palette", "", None),
 ]
@@ -56,6 +57,7 @@ KEY_COLORS = {
     "certs": BLUE,
     "site": GREEN,
     "linkedin": PURPLE,
+    "x": CYAN,
 }
 
 PALETTE = [RED, ORANGE, YELLOW, GREEN, CYAN, BLUE, PURPLE, BRIGHT]
