@@ -4,8 +4,6 @@
 
 <br><br>
 
-<h3><code>haaris@github ~ $ cat links.txt</code></h3>
-
 <a href="https://haarissadiq.dev"><code>haarissadiq.dev (work in progress)</code></a>
 &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/haaris-sadiq/"><code>linkedin/haaris-sadiq</code></a>
