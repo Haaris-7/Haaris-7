@@ -8,7 +8,7 @@
 &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/haaris-sadiq/"><code>linkedin/haaris-sadiq</code></a>
 &nbsp;·&nbsp;
-<a href="https://x.com/s_haaris25714"><code>x/@s_haaris25714</code></a>
+<a href="https://x.com/byHaarisSadiq"><code>x.com/byHaarisSadiq</code></a>
 &nbsp;·&nbsp;
 <a href="https://github.com/Haaris-7"><code>github/Haaris-7</code></a>
 
