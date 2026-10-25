@@ -1,14 +1,14 @@
 {
   "username": "Haaris-7",
-  "fetched_at": "2026-10-24T11:00:25Z",
+  "fetched_at": "2026-10-25T11:29:16Z",
   "stats": {
-    "total": 2013,
+    "total": 2014,
     "best_day": {
       "date": "2026-10-02",
       "count": 190
     },
-    "longest_streak": 100,
-    "current_streak": 100,
+    "longest_streak": 101,
+    "current_streak": 101,
     "monthly": {
       "2025-10": 7,
       "2025-11": 9,
@@ -22,45 +22,10 @@
       "2026-07": 275,
       "2026-08": 295,
       "2026-09": 432,
-      "2026-10": 692
+      "2026-10": 693
     }
   },
   "days": [
-    {
-      "date": "2025-10-19",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-20",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-21",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-22",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-23",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-24",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-25",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-10-26",
       "count": 0,
@@ -1878,6 +1843,11 @@
     },
     {
       "date": "2026-10-24",
+      "count": 1,
+      "level": 1
+    },
+    {
+      "date": "2026-10-25",
       "count": 0,
       "level": 0
     }
